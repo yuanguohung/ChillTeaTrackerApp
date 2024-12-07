@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_transactions"
+        android:title="Giao dịch"
+        android:icon="@drawable/baseline_account_balance_24" />
+
+    <item
+        android:id="@+id/nav_statistics"
+        android:title="Thống kê"
+        android:icon="@drawable/garph" />
+
+    <item
+        android:id="@+id/nav_budget"
+        android:title="Tai Khoản"
+        android:icon="@drawable/ic_android_black_24dp"/>
+</menu>

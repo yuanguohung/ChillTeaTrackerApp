@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="500dp"
+    android:height="207dp"
+    android:viewportWidth="500"
+    android:viewportHeight="207">
+    <group>
+        <path
+            android:pathData="M25 48c0-11.05 8.95-20 20-20h414c11.05 0 20 8.95 20 20v121c0 11.05-8.95 20-20 20H45c-11.05 0-20-8.95-20-20V48Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="252"
+                    android:startY="-61.81"
+                    android:endX="285.39"
+                    android:endY="177.61">
+                    <item
+
+                        android:color="#FF2C343C"
+                        android:offset="0"/>
+                    <item
+                        android:color="#009688"
+
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:strokeWidth="3"
+            android:pathData="M459 26.5H45c-11.87 0-21.5 9.63-21.5 21.5v121c0 11.87 9.63 21.5 21.5 21.5h414c11.87 0 21.5-9.63 21.5-21.5V48c0-11.87-9.63-21.5-21.5-21.5Z">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="6.71"
+                    android:startY="28"
+                    android:endX="48.45"
+                    android:endY="230.01">
+                    <item
+                        android:color="#CDDC39"
+                        android:offset="0"/>
+                    <item
+                        android:color="#0023282D"
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:strokeColor="#CDDC39"
+            android:strokeWidth="3"
+            android:pathData="M459 26.5H45c-11.87 0-21.5 9.63-21.5 21.5v121c0 11.87 9.63 21.5 21.5 21.5h414c11.87 0 21.5-9.63 21.5-21.5V48c0-11.87-9.63-21.5-21.5-21.5Z"/>
+    </group>
+</vector>

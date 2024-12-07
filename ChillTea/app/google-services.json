@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "167898460788",
+    "firebase_url": "https://quanlychilltea-default-rtdb.firebaseio.com",
+    "project_id": "quanlychilltea",
+    "storage_bucket": "quanlychilltea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167898460788:android:31ac9a117867033fff5721",
+        "android_client_info": {
+          "package_name": "com.example.qlchitieu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0UG1sf4R_IKijCKuukULL6HV5tUdtMhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

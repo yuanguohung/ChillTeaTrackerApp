@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Fragment Login -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.qlchitieu.fragment.TransactionFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_transaction">
+        <action
+            android:id="@+id/action_loginFragment_to_transactionsFragment"
+            app:destination="@id/transactionsFragment" />
+    </fragment>
+
+    <!-- Fragment Transactions -->
+    <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.example.qlchitieu.fragment.StatisticsFragment"
+        android:label="Transactions"
+        tools:layout="@layout/fragment_statistics">
+        <action
+            android:id="@+id/action_transactionsFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <!-- Fragment Settings -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.qlchitieu.fragment.BudgetFragment"
+        android:label="Cài Đặt"
+        tools:layout="@layout/fragment_budget" />
+</navigation>
